@@ -8,7 +8,7 @@ def check(tri1,tri2,ang1,ang2):
     elif((ang1[0]==ang2[0]) or (ang1[0]==ang2[1]) or (ang1[0]==ang2[2]) or
          (ang1[1] == ang2[0]) or (ang1[1] == ang2[1]) or (ang1[1] == ang2[2]) or
          (ang1[2] == ang2[0]) or (ang1[2] == ang2[1]) or (ang1[2] == ang2[2])) or (tri1[1]==tri2[1]) :
-        print("Similar triangles by ASA")
+        print("Similar triangle by ASA")
 
 def main():
     s1 = input("Enter the side for trianlge 1:").split()
